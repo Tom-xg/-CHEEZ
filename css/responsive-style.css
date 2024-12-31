@@ -1,0 +1,493 @@
+/*2200*/
+@media screen and (max-width: 2200px) {
+  .home {
+    padding: 275px 0 700px;
+  }
+}
+
+/*1200*/
+@media screen and (max-width: 1200px) {
+  /*Home*/
+  .home {
+    padding: 175px 0 700px;
+    h1 {
+      font-size: 100px;
+    }
+  }
+
+  /*About*/
+  .about {
+    padding: 50px 4% 50px;
+
+    h2 {
+      font-size: 70px;
+
+      span {
+        font-size: 70px;
+      }
+    }
+    p {
+      font-size: 18px;
+      width: 100%;
+    }
+
+    .about-img {
+      width: 80%;
+    }
+
+    .about-icons {
+      ul {
+        li {
+          width: 100px;
+          height: 100px;
+
+          p {
+            font-size: 14px;
+            margin: 8px 0 0 0;
+          }
+        }
+      }
+    }
+  }
+
+  /*Buy Section*/
+  .buy-sec {
+    padding: 60px 0;
+
+    h2 {
+      font-size: 70px;
+      margin-bottom: 60px;
+    }
+
+    .buy-content {
+      .card-warper {
+        .card-inner {
+          .buy-card {
+            padding: 50px 30px 0px;
+
+            .buy-card-text {
+              h3 {
+                font-size: 28px;
+
+                span {
+                  font-size: 26px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /*Tokenomics*/
+  .tokenomics {
+    padding: 60px 0 100px;
+
+    h2 {
+      font-size: 70px;
+      margin-bottom: 30px;
+    }
+
+    .token-warp {
+      margin-bottom: 20px;
+
+      .token-text {
+        h3 {
+          font-size: 24px;
+        }
+        p {
+          font-size: 28px;
+        }
+      }
+    }
+    .token-copy-sec {
+      p {
+        font-size: 30px;
+
+        span {
+          font-size: 35px;
+        }
+      }
+      a {
+        i {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  /*Roadmap*/
+  .roadmap {
+    padding: 60px 0;
+
+    h2 {
+      font-size: 70px;
+      margin-bottom: 60px;
+    }
+
+    .roadmap-content {
+      width: 60%;
+      text-align: center;
+      margin: 0 auto;
+      .roadmap-text {
+        p {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+  /*Footer*/
+  .footer {
+    padding: 0px 0 100px;
+
+    h2 {
+      font-size: 70px;
+    }
+
+    .footer-icons {
+      ul {
+        li {
+          width: 100px;
+          height: 100px;
+
+          p {
+            font-size: 14px;
+            margin: 8px 0 0 0;
+          }
+        }
+      }
+    }
+    .btm-text {
+      p {
+        font-size: 20px;
+        width: 80%;
+      }
+    }
+  }
+}
+
+/* Ipad Screen */
+@media screen and (max-width: 991px) {
+  /*Home*/
+  .home {
+    background: url(/images/hero/a.png) no-repeat top right;
+    padding: 120px 0 505px;
+
+    h1 {
+      font-size: 80px;
+    }
+  }
+
+  /*Navbar*/
+  .navbar {
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: #1c354b;
+  }
+  .navbar ul {
+    text-align: center;
+    border: none;
+  }
+  .navbar .nav-link {
+    color: #fff;
+    border-color: transparent;
+    background: transparent;
+  }
+  .navbar-toggler {
+    color: #fff;
+  }
+
+  .navbar .nav-btns {
+    justify-content: center;
+  }
+
+  /*How to buy*/
+  .buy-sec {
+    .buy-content {
+      .card-warper {
+        .card-inner {
+          .buy-card {
+            min-height: 350px;
+          }
+        }
+      }
+      .warper-1,
+      .warper-2,
+      .warper-3,
+      .warper-4 {
+        transform: rotate(0deg);
+      }
+    }
+  }
+
+  /*Tokenomics*/
+  .tokenomics {
+    .token-copy-sec {
+      overflow: hidden;
+      flex-direction: column;
+
+      p {
+        text-wrap: wrap;
+        font-size: 24px;
+
+        span {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+  /*Roadmap*/
+  .roadmap {
+    h2 {
+      margin-bottom: 30px;
+    }
+    .roadmap-content {
+      width: 80%;
+      text-align: center;
+      margin: 0 auto;
+      .roadmap-text {
+        p {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+/*768*/
+@media screen and (max-width: 768px) {
+  /*Home*/
+  .home {
+    padding: 150px 0 400px;
+  }
+  /*About*/
+  .about {
+    padding: 30px 0 0;
+
+    h2 {
+      font-size: 50px;
+
+      span {
+        font-size: 50px;
+      }
+    }
+    p {
+      font-size: 16px;
+    }
+
+    .about-icons {
+      ul {
+        li {
+          width: 70px;
+          height: 70px;
+
+          p {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  /*Buy Section*/
+  .buy-sec {
+    h2 {
+      font-size: 50px;
+    }
+    .buy-content {
+      .card-warper {
+        .card-inner {
+          .buy-card {
+            padding: 20px 20px 0px;
+            min-height: 280px;
+
+            .buy-card-text {
+              h3 {
+                font-size: 24px;
+                margin-bottom: 10px;
+
+                span {
+                  font-size: 24px;
+                }
+              }
+              p {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /*Tokenomics*/
+  .tokenomics {
+    padding: 10px 0 50px;
+
+    h2 {
+      font-size: 50px;
+    }
+
+    .token-warp {
+      margin-bottom: 0;
+
+      .token-text {
+        h3 {
+          font-size: 18px;
+        }
+        p {
+          font-size: 24px;
+        }
+      }
+    }
+    .token-copy-sec {
+      p {
+        font-size: 18px;
+        margin-top: 20px;
+
+        span {
+          font-size: 18px;
+        }
+      }
+      a {
+        i {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+  /*Roadmap*/
+  .roadmap {
+    padding: 50px 0 20px;
+
+    h2 {
+      font-size: 50px;
+      margin-bottom: 0px;
+    }
+
+    .roadmap-content {
+      .roadmap-img {
+        width: 100%;
+      }
+      .roadmap-text {
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  /*Footer*/
+  .footer {
+    padding: 0px 0 80px;
+
+    h2 {
+      font-size: 50px;
+    }
+
+    .footer-icons {
+      margin-bottom: 30px;
+      ul {
+        li {
+          width: 70px;
+          height: 70px;
+
+          p {
+            display: none;
+          }
+        }
+      }
+    }
+    .btm-text {
+      p {
+        font-size: 18px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+/*523*/
+@media screen and (max-width: 523px) {
+  .home {
+    height: 10vh;
+    padding: 150px 0 350px;
+    h1 {
+      font-size: 60px;
+    }
+  }
+}
+
+/*350*/
+@media screen and (max-width: 350px) {
+  /*About*/
+  .about {
+    .about-icons {
+      ul {
+        li {
+          width: 60px;
+          height: 60px;
+          margin-right: 15px;
+
+          p {
+            display: none;
+          }
+          a {
+            img {
+              width: 35px;
+              height: 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+  /*Roadmap*/
+  .roadmap {
+    .roadmap-content {
+      .roadmap-img {
+        width: 100%;
+      }
+      .roadmap-text {
+        p {
+          font-size: 13px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+  /*Footer*/
+  .footer {
+    padding: 0px 0 20px;
+
+    h2 {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+
+    .footer-icons {
+      margin-bottom: 20px;
+      ul {
+        li {
+          width: 60px;
+          height: 60px;
+          margin-right: 15px;
+
+          p {
+            display: none;
+          }
+          a {
+            img {
+              width: 35px;
+              height: 35px;
+            }
+          }
+        }
+      }
+    }
+    .btm-text {
+      p {
+        font-size: 16px;
+        width: 100%;
+      }
+    }
+  }
+}
